@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "python .github/hooks/append_todays_action.py",
+        "timeout": 10
+      }
+    ]
+  }
+}
